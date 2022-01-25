@@ -4,7 +4,8 @@
 void mx_printint(int n)
 {
 
-    char integer[12];
+    char integer[12]; //= {'\0'};
+    mx_memset(integer, '\0', 12);
     ubyte count = 0;
     if (n <= INT_MIN)
     {
