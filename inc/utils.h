@@ -1,6 +1,7 @@
 #pragma once
 
 #include "structures.h"
+#include "wizaral.h"
 
 char *permissions(char *file);
 char *mode(mode_t m);
